@@ -1,0 +1,1 @@
+/usr/local/ec2/ec2-api-tools-1.7.2.2/bin/ec2-stop-instances <instance-id-1> <instance-id-2> <instance-id-3>
