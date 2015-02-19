@@ -3,13 +3,9 @@ Requires EC2 API Tools
 
 #crontab
 SHELL=/bin/bash
-
 PATH=/sbin:/bin:/usr/sbin:/usr/bin
-
 MAILTO="<email>"
-
 30 20 * * * /bin/bash -c /path/to/stop_instances.sh >> /home/ubuntu/cron.log 2>&1
-
 30 8 * * * /bin/bash -c /path/to/start_instances.sh >> /home/ubuntu/cron.log 2>&1
 
 
